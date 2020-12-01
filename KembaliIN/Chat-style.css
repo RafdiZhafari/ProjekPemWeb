@@ -3,7 +3,7 @@
 		width: 100%;
 		background-color: #FF8A00;
 		position: sticky;
-		z-index: 999;
+		z-index: 1000;
 	}
 	.searchsq{
 			width: 309px;
@@ -31,6 +31,7 @@
 		left:86%;
 		top:-110px;
 		font-size:20px;
+		text-align:right;		
 	}
 	.CB {
 		border-top-style: hidden;
