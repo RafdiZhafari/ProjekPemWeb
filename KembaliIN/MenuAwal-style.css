@@ -26,6 +26,13 @@
 			left:93%;
 			top:15%;
 		}
+		.username{
+		position: relative;
+		right:12%;
+		top:-110px;
+		font-size:20px;
+		text-align:right;
+	}
 		.searchsq{
 			height: 26px;
 			width: 357px;
