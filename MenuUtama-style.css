@@ -1,0 +1,63 @@
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+header {
+    height: 65px;
+    width: 99%;
+    background-color: #C4C4C4;
+    /* Ubah position ke fixed, dan top ke 0 */
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 */
+    z-index:10;
+}
+
+.header-left {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-right {
+  float: right;
+  width: 124px;
+}
+
+.searchsq{
+  height: 26px;
+  width: 357px;
+  background-color: white;
+  border-radius: 25px;
+  position: relative;
+  left:5%;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+  position:relative;
+  top: 2px;
+  left:5%;
+  outline:none;
+  width:290px;
+}
+
+.circle{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: black;
+  left:93%;
+}
+
+.content{
+  padding: 55px 0 0 0;
+  text-align: center;
+}
