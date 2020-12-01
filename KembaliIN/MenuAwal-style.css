@@ -1,0 +1,108 @@
+.square {
+			height: 80px;
+			width: 100%;
+			background-color: #C4C4C4;
+			position: sticky;
+			z-index: 999;
+		}
+		.menu{
+			height:5%;
+			width:2.5%;
+			background-color: #C4C4C4;
+			position: absolute;
+			top:25%;
+			right:1%;
+			text-align: center;
+			border-radius: 15px;
+			outline: none;
+			z-index:999;
+		}
+		.circle{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			background-color: black;
+			position: relative;
+			left:93%;
+			top:15%;
+		}
+		.searchsq{
+			height: 26px;
+			width: 357px;
+			background-color: white;
+			border-radius: 25px;
+			position: relative;
+			top: -35px;
+			left:5%;
+		}
+		body {
+			margin: 0;
+		}
+		input {
+			border-top-style: hidden;
+			border-right-style: hidden;
+			border-left-style: hidden;
+			border-bottom-style: hidden;
+			background-color: white;
+			position:relative;
+			top: 2px;
+			left:5%;
+			outline:none;
+			width:290px;
+		}
+		p{
+			position: relative;
+			left:86%;
+			top:-82px;
+		}
+		.slider{
+			height:85%;
+			width:300px;
+			background-color:#C4C4C4;
+			visibility:hidden;
+			position:absolute;
+			border:1px solid black;
+			right:0%;
+			top:14.2%;
+			z-index:999;
+		}@keyframes sliding{
+			0% {right:-40%}
+			100% {right:0%}
+		}@keyframes sliding2{
+			0% {right:0%}
+			100% {right:-40%}
+		}
+		.isimenu{
+			text-align:left;
+			position:relative;
+			font-size:25px;
+			left:6%;
+			top:9%;
+			z-index:1000;
+			text-decoration: none;
+			color:black;
+		}
+		.close{
+			height:5%;
+			width:2.5%;
+			background-color: #C4C4C4;
+			position: absolute;
+			top:7%;
+			right:14%;
+			text-align: center;
+			border-radius: 15px;
+			outline: none;
+			font-size:30px;
+			color:white;
+			cursor: pointer;
+			z-index:1000;
+			border: none;
+		}
+		.lapor{
+			position:absolute;
+			top:90%;
+			left:10%;
+			border-radius:25px;
+			outline:none;
+			font-size:30px;
+		}

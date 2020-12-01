@@ -1,0 +1,205 @@
+	.square {
+	  height: 520px;
+	  width: 950px;
+	  right:-13%;
+	  bottom: -20px;
+	  background-color: white;
+	  border: 1px solid black;
+	  border-color: black;
+	  position: relative;
+	  border-radius: 25px;
+	  filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
+	}
+	.square2 {
+	  height: 100%;
+	  width: 40%;
+	  background-color: #FF8A00;
+	  border-color: black;
+	  position: relative;
+	  top:-0.15%;
+	  right:0.1%;
+	  border-radius: 25px 0px 0px 25px;
+	  border: 1px solid black;
+	  z-index: 999;		
+	}
+	.square2a {
+	  animation-name: pindah;
+	  animation-duration: 2s;
+	  animation-fill-mode: forwards;
+	}
+	.square2b {
+	  animation-name: pindah2;
+	  animation-duration: 2s;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes pindah {
+		  0%{
+			  height: 100%;
+			  width: 40%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:0.1%;
+			  border-radius: 25px 0px 0px 25px;
+			  border: 1px solid black;
+			  z-index: 999;		
+			}
+		  50%{
+			  height: 100%;
+			  width: 60%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:-20%;
+			  border-radius: 12.5px 12.5px 12.5px 12.5px;
+			  border: 1px solid black;
+			  z-index: 999;		
+			}
+		  100%{
+			  height: 100%;
+			  width: 40%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:-59.8%;
+			  border-radius: 0px 25px 25px 0px;
+			  border: 1px solid black;
+			  z-index: 999;		
+			}
+		}
+	@keyframes pindah2 {
+		  0%{
+			  height: 100%;
+			  width: 40%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:-59.8%;
+			  border-radius: 0px 25px 25px 0px;
+			  border: 1px solid black;
+			  z-index: 999;
+			}
+		  50%{
+			  height: 100%;
+			  width: 60%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:-20%;
+			  border-radius: 12.5px 12.5px 12.5px 12.5px;
+			  border: 1px solid black;
+			  z-index: 999;
+			}
+		  100%{
+			  height: 100%;
+			  width: 40%;
+			  background-color: #FF8A00;
+			  border-color: black;
+			  position: relative;
+			  top:-0.15%;
+			  right:0.1%;
+			  border-radius: 25px 0px 0px 25px;
+			  border: 1px solid black;
+			  z-index: 999;
+			}
+		}
+	.square3{
+		height: 0.1%;
+		width: 40%;
+		background-color: grey;
+		position: relative;
+		left: 45%;
+	}
+	.tulogin{
+		left: 10%;
+		position: relative;
+		bottom: 100%;
+		font-size: 40px;
+	}
+	
+	@keyframes kiri{
+		0% {left: 12.5%;}
+		50% {left: 2%}
+		100% {left: -27%}
+	}@keyframes kirib{
+		0% {left: -27%;}
+		50% {left: 2%}
+		100% {left: 12.5%}
+	}@keyframes kiri2{
+		0% {left: 44.5%;}
+		50% {left: 35%}
+		100% {left: 5%}
+	}@keyframes kiri2b{
+		0% {left: 5%;}
+		50% {left: 35%}
+		100% {left: 44.5%}
+	}@keyframes kiri3{
+		0% {left: 10%;}
+		50% {left: 0%}
+		100% {left: -20%}
+	}@keyframes kiri3b{
+		0% {left: -20%;}
+		50% {left: 0%}
+		100% {left: 10%}
+	}
+	.input{
+		position: relative;
+		left: 13%;
+		width: 35%;
+	}
+	.login1{
+		border-radius: 25px;
+		width: 40%;
+		height: 6%;
+		left: 17%;
+		outline: none;
+		top: -55%;
+		position: relative;
+		font-size: 15px
+	}
+	@keyframes login{
+		0% {left: 17%;}
+		50% {left: 0%;width:35%;}
+		100% {left: -22%;}
+	}@keyframes loginb{
+		0% {left: -22%;}
+		50% {left: 0%;width:35%;}
+		100% {left: 17%;}
+	}
+	.signup{
+		border-radius: 25px;
+		cursor: pointer;
+		outline: none;
+		position: relative;
+		top: 40%;
+		width: 40%;
+		height: 10%;
+		background-color: #FF8A00;
+		border: 2px solid white;
+	}
+	
+	@keyframes hilang{
+		0% {opacity:1;}
+		100% {opacity:0;}
+	}@keyframes hilang2{
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+	input {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		background-color: white;
+		outline:none;
+	}
+	.khusus{
+		visibility:hidden;	
+	}
+	
+	
