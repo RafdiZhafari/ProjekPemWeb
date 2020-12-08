@@ -1,0 +1,100 @@
+	.square {
+		height: 80px;
+		width: 100%;
+		background-color: #FF8A00;
+		position: sticky;
+		z-index: 999;
+	}
+	.foto{
+		width: 578px;
+		height: 307px;
+		background-color: #FF8A00;
+		position:absolute;
+		top:151px;
+		left:600px;
+		border-radius:25px;
+	}
+	.searchsq{
+			width: 309px;
+			height: 39px;
+			background-color: white;
+			border-radius: 25px;
+			position: relative;
+			top: -35px;
+			left:5%;
+		}
+	.alamat{
+		border:2px solid #FF8A00;
+		padding: 11px;
+		border-radius:25px;
+		top:335px;
+		left:45px;
+		position:absolute;
+		font-size:24px;
+		width:300px;
+		height:40px;
+		outline: none;
+	}
+	.username{
+		position: relative;
+		right:12%;
+		top:-110px;
+		font-size:20px;
+		text-align:right;
+	}
+	.lapor{
+		position: absolute;
+		width: 128px;
+		height: 50px;
+		left: 85%;
+		top: 600%;
+		border-radius:25px;
+		outline:none;
+		filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+		background-color: #FFBA00;
+		color: black;
+		font-size:25px;
+		cursor: pointer;
+	}
+	.tanda{
+		position: absolute;
+		width: 159px;
+		height: 24px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 24px;
+		/* identical to box height, or 96% */
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #000000;
+	}
+	.circle{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			background-color: black;
+			position: relative;
+			left:93%;
+			top:15%;
+		}
+	body {
+			margin: 0;
+		}
+	.pinput {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		background-color: white;
+		position:relative;
+		top: 2px;
+		left:5%;
+		outline:none;
+		width:290px;
+	}

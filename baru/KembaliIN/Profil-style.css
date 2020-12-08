@@ -1,0 +1,119 @@
+	.square {
+		height: 80px;
+		width: 100%;
+		background-color: #C4C4C4;
+		position: sticky;
+		z-index: 999;
+	}
+	.square2{
+		position: absolute;
+		width: 921px;
+		height: 174px;
+		left: 160px;
+		top: 70px;
+
+		background: #FFA500;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.buletbesar{
+		border-radius:50%;
+		position: absolute;
+		width: 220px;
+		height: 202px;
+		left: 515px;
+		top: 124px;
+
+		background: #C4C4C4;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.profilnama{
+		position: absolute;
+		width: 198px;
+		height: 24px;
+		left: 526px;
+		top: 317px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 24px;
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #000000;
+	}
+	.kinput{
+		position: absolute;
+		width: 309px;
+		height: 53px;
+		background: #FFFFFF;
+		border: 1px solid #000000;
+		box-sizing: border-box;
+		border-radius:20px;
+	}
+	.tanda{
+		position: absolute;
+		width: 92px;
+		height: 24px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #000000;
+	}
+	.searchsq{
+			width: 309px;
+			height: 39px;
+			background-color: white;
+			border-radius: 25px;
+			position: relative;
+			top: -35px;
+			left:5%;
+		}
+	.circle{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			background-color: black;
+			position: relative;
+			left:93%;
+			top:15%;
+		}
+	body {
+			margin: 0;
+		}
+	input {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		background-color: white;
+		position:relative;
+		top: 2px;
+		left:5%;
+		outline:none;
+		width:290px;
+	}
+	.edit{
+		position: absolute;
+		width: 168px;
+		height: 39px;
+		border-radius:20px;
+		background: #FFA500;
+		color:white;
+		outline:none;
+		border:none;
+	}
+	.username{
+		position: relative;
+		left:86%;
+		top:-110px;
+		font-size:20px;
+	}

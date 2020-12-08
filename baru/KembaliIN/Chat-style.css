@@ -1,0 +1,127 @@
+.square {
+		height: 80px;
+		width: 100%;
+		background-color: #FF8A00;
+		position: sticky;
+		z-index: 999;
+	}
+	.searchsq{
+			width: 309px;
+			height: 39px;
+			background-color: white;
+			border-radius: 25px;
+			position: relative;
+			top: -35px;
+			left:5%;
+		}
+	.circle{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			background-color: black;
+			position: relative;
+			left:93%;
+			top:15%;
+		}
+	body {
+			margin: 0;
+		}
+	.username{
+		position: relative;
+		right:12%;
+		top:-100%;
+		font-size:20px;
+		text-align:right;
+	}
+	.CB {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		background-color: white;
+		position:relative;
+		top: 2px;
+		left:5%;
+		outline:none;
+		width:290px;
+	}
+	.chat{
+		position: absolute;
+	width: 239px;
+	height: 99px;
+	left: 64px;
+	top: 110px;
+	background: #FDEFBE;
+	}
+	.isi{
+		position: absolute;
+		width: 720px;
+		height: 492px;
+		left: 302px;
+		top: 208px;
+		background: #FDEFBE;
+	}
+	.ketik{
+		position: relative;
+		width: 595px;
+		height: 63px;
+		left: 2%;
+		top: 80%;
+		background: #FFFFFF;
+		border-radius: 0px 45px 45px 0px;
+		font-size:45px;
+		outline:none;
+	}
+	.kirim{
+		position: relative;
+		width: 65px;
+		height: 62.14px;
+		left: 4%;
+		top: 78.5%;
+		background: #FFFFFF;
+		outline:none;
+		border-radius:50%;
+	}
+	.tulis{
+		position: absolute;
+		width: 720px;
+		height: 392px;
+		left: 302px;
+		top: 208px;
+		background: #FDEFBE;
+		overflow: auto;
+	}
+	table, td {
+	  border: none;
+	  font-size:30px;
+	}
+	td{
+		width:400px;
+	}
+	.daftar{
+		position: absolute;
+		width: 237px;
+		height: 100px;
+		background: #C4C4C4;
+		border-radius: 45px 0px 0px 45px;
+	}
+	.gambar{
+		position: relative;
+		width: 95px;
+		height: 95px;
+		border-radius:50%;
+		background-color:black;
+	}
+	.nama{
+		position: absolute;
+		width: 253px;
+		height: 24px;
+		left: 348px;
+		top: 100px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 50px;
+		line-height: 24px;
+	}

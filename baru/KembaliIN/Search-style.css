@@ -1,0 +1,104 @@
+	.square {
+		height: 80px;
+		width: 100%;
+		background-color: #FF8A00;
+		position: sticky;
+		z-index: 999;
+	}
+	.searchsq{
+			width: 309px;
+			height: 39px;
+			background-color: white;
+			border-radius: 25px;
+			position: relative;
+			top: -35px;
+			left:5%;
+		}
+	.circle{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			background-color: black;
+			position: relative;
+			left:93%;
+			top:15%;
+		}
+	body {
+			margin: 0;
+		}
+	.username{
+		position: relative;
+		left:86%;
+		top:-110px;
+		font-size:20px;
+	}
+	input {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: hidden;
+		background-color: white;
+		position:relative;
+		top: 2px;
+		left:5%;
+		outline:none;
+		width:290px;
+	}
+	.bfilter{
+		position: absolute;
+		width: 128px;
+		height: 50px;
+		top: 130px;
+		left:84%;
+		background: #FFB83B;
+		border-radius: 25px;
+		filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+		outline:none;
+	}
+	@keyframes geser1{0% {left:84%;}100% {left:72%;}}@keyframes geser1b{0% {left:72%;}100% {left:84%;}}	
+	@keyframes geser2{0% {left:84%;}100% {left:60%;}}@keyframes geser2b{0% {left:60%;}100% {left:84%;}}	
+	@keyframes geser3{0% {left:84%;}100% {left:48%;}}@keyframes geser3b{0% {left:48%;}100% {left:84%;}}
+	@keyframes geser4{0% {left:84%;}100% {left:36%;}}@keyframes geser4b{0% {left:36%;}100% {left:84%;}}
+	@keyframes geser5{0% {left:84%;}100% {left:24%;}}@keyframes geser5b{0% {left:24%;}100% {left:84%;}}
+	
+	.indent{
+		text-indent: 45px;
+	}
+	.kategori{
+		position: absolute;
+		width: 366px;
+		height: 93px;
+		left: 72%;
+		top: 230px;
+		z-index:11;
+		background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FF8A00;
+		border-radius: 0px 0px 20px 20px;
+	}
+	.kategori h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	.outkategori{
+		position: absolute;
+		width: 365px;
+		height: 401px;
+		left: 72%;
+		top: 299px;
+		z-index:10;
+		background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C5C5C5;
+	}
+	.outkategoritems{
+		position: relative;
+		top:10%;
+		left:15%;
+		font-size:25px;
+	}
+	.kotakbarang{
+		position: absolute;
+		width: 786px;
+		height: 157px;
+
+		background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C5C5C5;
+		border: 1px solid #000000;
+		box-sizing: border-box;
+	}

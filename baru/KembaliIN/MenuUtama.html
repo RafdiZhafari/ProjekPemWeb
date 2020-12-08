@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <link rel="stylesheet" href="MenuUtama-style.css">
+		<script src="MenuAwal-js.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+				<div class="header-left">
+					<div class="searchsq">
+						<input type="text" placeholder="Cari Barang">
+						<a href="Search.html"><img src="Cari.svg" style="width:20px;height:20px;position:absolute;z-index:20;top:2px;padding-left:30px;"/></a>
+					</div>
+				</div>
+				<div class="header-logo">
+					<button class="logo"></button>
+				</div>
+				<div class="header-right">
+					<div class="isi">
+						<table>
+							<th><img class="notif" src="notifications.png" alt="notifikasi"></th>
+							<th><p>Hi!<br>Aris Dwi Prasetyo</p></th>
+							<th><img class="profile" src="profile.png" alt=""></th>
+						</table>
+					</div>
+					<button onclick="menu()" class="sidebar"></button>
+				</div>
+            </div>
+        </header>
+
+        <div class="content">
+            <script src="Map.js"></script>
+            <div id="googleMap" style="width:100%;height:650px;z-index:1;"></div>
+			
+			<div class="slider" id="slider">
+				<button onclick="tutup()" class="close" id="close">X</button>
+				<a class="isimenu" href="Profil.html">Profil</a><br><br><br>
+				<a class="isimenu" href="Chat.html">Chat</a><br><br><br>
+				<a class="isimenu">Bantuan & Dukungan</a><br><br><br>
+				<a class="isimenu">Tentang Kami</a>
+			</div>
+			
+			<button class="tLapor" onclick="window.location.href='Lapor.html';"></button>
+        </div>
+    </body>
+</html>

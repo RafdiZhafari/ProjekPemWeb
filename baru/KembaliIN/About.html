@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="About-style.css">
+		<script src="Chat-js.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+				<div class="header-left">
+					<div class="searchsq">
+						<input type="text" placeholder="Cari Barang">
+						<a href="Search.html"><img src="Cari.svg" style="width:20px;height:20px;position:absolute;z-index:20;top:2px;padding-left:30px;"/></a>
+					</div>
+				</div>
+				<div class="header-logo">
+					<button class="logo"></button>
+				</div>
+				<div class="header-right">
+					<div class="isi">
+						<table>
+							<th><img class="notif" src="notifications.png" alt="notifikasi"></th>
+							<th><p>Hi!<br>Aris Dwi Prasetyo</p></th>
+							<th><img class="profile" src="profile.png" alt=""></th>
+						</table>
+					</div>
+					<button onclick="menu()" class="sidebar"></button>
+				</div>
+            </div>
+        </header>
+		
+		<div class="content">
+			
+			<div class="slider" id="slider">
+				<button onclick="tutup()" class="close" id="close">X</button>
+				<a class="isimenu" href="Profil.html">Profil</a><br><br><br>
+				<a class="isimenu" href="Chat.html">Chat</a><br><br><br>
+				<a class="isimenu">Bantuan & Dukungan</a><br><br><br>
+				<a class="isimenu">Tentang Kami</a>
+			</div>
+			
+			<div class="chat">
+				<p>Tentang Kami</p>
+			</div>
+			
+			<button class="logo"></button>
+			
+			<div class="daftar" style="top: 220px;">
+				<div class="gambar"></div>
+				<p>Amien Aziz</p>
+			</div>
+			<div class="daftar" style="top: 330px;">
+				<div class="gambar"></div>
+				<p>Daniel Er...</p>
+			</div>
+			<div class="daftar" style="top: 440px;">
+				<div class="gambar"></div>
+				<p>Rafdi Rey...</p>
+			</div>
+			
+			<div class="garis"></div>
+			
+			<div class="tulis">
+				<p>Kembali-IN merupakan aplikasi yang dapat mengintegrasikan komunitas untuk saling tolong menolong antar sesama manusia terutama dalam hal penemuan barang hilang. </p>
+				<p>Aplikasi ini sangat mendorong kejujuran dan rasa tolong menolong sesama manusia, Pemilik barang bisa melakukan penelusuran area disekitarnya untuk melihat Pin yang menandakan temuan maupun tempat kehilangan barang disekitarnya. User juga bisa mencari melalui search box mengenai jenis barang yang ia hilangkan. Setelah menemukan postingan mengenai barang temuan. </p>
+				<p>Pemilik barang dapat melakukan percakapan melalui pesan inbox untuk memastikan bahwa ia sang pemilik dengan mengatakan ciri-ciri barang hilang dan menentukan lokasi pengembalian barang dengan sang penemu atau bila kedua user tersebut sedang sibuk atau memiliki jarak rumah yang jauh, kami juga menyediakan fitur Kurir untuk mengirim barang.</p>
+			</div>
+        </div>
+    </body>
+</html>
