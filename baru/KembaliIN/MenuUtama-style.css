@@ -1,0 +1,192 @@
+.container {
+    width: 1170px;
+    padding: 0 px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #FF8A00;
+    /* Ubah position ke fixed, dan top ke 0 */
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 */
+    z-index:10;
+}
+body{
+	margin:0;
+}
+
+.header-left {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-logo{
+	position: absolute;
+	left: 38%;
+	top: -13px;
+}
+
+.header-right {
+  float: right;
+  height: 65px;
+  width: 400px;
+  top: 20%;
+  margin-top: 20px;
+}
+
+.searchsq{
+  height: 26px;
+  width: 357px;
+  background-color: white;
+  border-radius: 25px;
+  position: relative;
+  left:5%;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+  position:relative;
+  top: 2px;
+  left:5%;
+  outline:none;
+  width:290px;
+}
+
+.circle{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: black;
+  left:93%;
+}
+
+.content{
+  padding: 55px 0 0 0;
+  text-align: center;
+}
+
+.clear{
+  clear: left;
+}
+.header-right th {
+  padding: 5px 10px;
+  list-style: none;
+  position: relative;
+  left: 14px;
+  top: -9px;
+}
+
+.notif{
+  width: 26px;
+  height: 30px;
+}
+
+.profile{
+  height: 63px;
+  width: 63px;
+}
+
+.header-right p {
+  font-family:Roboto;
+  font-style: normal;
+  font-size: 15px;
+  text-align: left;
+}
+
+.isi{
+  position: relative;
+  float: left;
+  top: -18px;
+  height: 60px;
+  border-radius: 90px;
+  background-color: white;
+  border: none;
+}
+.sidebar{
+	width: 44px;
+	height: 30px;
+	float: right;
+	background: url(menu.png);
+	cursor: pointer;
+	border: none;
+}
+.slider{
+	width: 358px;
+	height: 488px;
+	background-color:#FF8A00;
+	visibility:hidden;
+	position:absolute;
+	border-radius: 0 0 0 45px;
+	float: right;
+	top:11.4%;
+	z-index:999;
+	position: fixed;
+}@keyframes sliding{
+	0% {right:-40%}
+	100% {right:0%}
+}@keyframes sliding2{
+	0% {right:0%}
+	100% {right:-40%;visibility:hidden}
+}
+
+.logo{
+	width: 266.4px;
+	height: 80.37px;
+	background: url(LogoKembali-IN.svg);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.isimenu{
+	float:left;
+	position:relative;
+	font-size:25px;
+	left:6%;
+	top:9%;
+	z-index:1000;
+	text-decoration: none;
+	color:white;
+	
+}
+.close{
+	height:5%;
+	width:2.5%;
+	background-color: #FF8A00;
+	position: absolute;
+	top:7%;
+	right:14%;
+	text-align: center;
+	border-radius: 15px;
+	outline: none;
+	font-size:30px;
+	color:white;
+	cursor: pointer;
+	z-index:1000;
+	border: none;
+}
+.tLapor{
+	position: absolute;
+	position: fixed;
+	background: url(TombolLapor.svg);
+	left: 25px;
+	top: 450px;
+	width: 234px;
+	height: 77px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index:999;
+}.tLapor:hover {
+	background: url(TombolLapor2.svg);
+}.tLapor:active {
+	background: url(TombolLapor3.png);
+}

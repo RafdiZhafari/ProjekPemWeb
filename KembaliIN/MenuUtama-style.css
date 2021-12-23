@@ -1,0 +1,151 @@
+.container {
+    width: 1170px;
+    padding: 0 px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #C4C4C4;
+    /* Ubah position ke fixed, dan top ke 0 */
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 */
+    z-index:10;
+}
+body{
+	margin:0;
+}
+
+.header-left {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-right {
+  float: right;
+  height: 65px;
+  width: 400px;
+  top: 20%;
+  margin-top: 20px;
+}
+
+.searchsq{
+  height: 26px;
+  width: 357px;
+  background-color: white;
+  border-radius: 25px;
+  position: relative;
+  left:5%;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+  position:relative;
+  top: 2px;
+  left:5%;
+  outline:none;
+  width:290px;
+}
+
+.circle{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: black;
+  left:93%;
+}
+
+.content{
+  padding: 55px 0 0 0;
+  text-align: center;
+}
+
+.clear{
+  clear: left;
+}
+.header-right li {
+  display: inline-block;
+  padding: 5px 15px;
+  list-style: none;
+}
+
+.notif{
+  width: 26px;
+  height: 30px;
+}
+
+.profile{
+  height: 45px;
+  width: 45px;
+}
+
+.header-right p {
+  font-family:Roboto;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.isi{
+  position: relative;
+  float: left;
+  top: -42px;
+}
+.sidebar{
+	width: 44px;
+	height: 30px;
+	float: right;
+	background: url(menu.png);
+	cursor: pointer;
+	border: none;
+}
+.slider{
+	height:85%;
+	width:300px;
+	background-color:#C4C4C4;
+	visibility:hidden;
+	position:absolute;
+	border:1px solid black;
+	right:0%;
+	top:14.2%;
+	z-index:999;
+}@keyframes sliding{
+	0% {right:-40%}
+	100% {right:0%}
+}@keyframes sliding2{
+	0% {right:0%}
+	100% {right:-40%}
+}
+.isimenu{
+	text-align:left;
+	position:relative;
+	font-size:25px;
+	left:6%;
+	top:9%;
+	z-index:1000;
+	text-decoration: none;
+	color:black;
+}
+.close{
+	height:5%;
+	width:2.5%;
+	background-color: #C4C4C4;
+	position: absolute;
+	top:7%;
+	right:14%;
+	text-align: center;
+	border-radius: 15px;
+	outline: none;
+	font-size:30px;
+	color:white;
+	cursor: pointer;
+	z-index:1000;
+	border: none;
+}

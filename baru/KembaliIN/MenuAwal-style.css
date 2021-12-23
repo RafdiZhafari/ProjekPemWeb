@@ -17,6 +17,13 @@
 			outline: none;
 			z-index:999;
 		}
+		.username{
+			position: relative;
+			left:-19%;
+			top:-110px;
+			font-size:20px;
+			text-align:right;
+		}
 		.circle{
 			height: 60px;
 			width: 60px;
@@ -25,13 +32,6 @@
 			position: relative;
 			left:93%;
 			top:15%;
-		}
-		.username{
-			position: relative;
-			left:-15%;
-			top:-110px;
-			font-size:20px;
-			text-align:right;
 		}
 		.searchsq{
 			height: 26px;

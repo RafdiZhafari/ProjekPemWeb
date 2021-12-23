@@ -1,14 +1,14 @@
 	.square {
 		height: 80px;
 		width: 100%;
-		background-color: #C4C4C4;
+		background-color: #FF8A00;
 		position: sticky;
 		z-index: 999;
 	}
 	.foto{
 		width: 578px;
 		height: 307px;
-		background-color: #C4C4C4;
+		background-color: #FF8A00;
 		position:absolute;
 		top:151px;
 		left:600px;
@@ -24,7 +24,8 @@
 			left:5%;
 		}
 	.alamat{
-		border:1px solid black;
+		border:2px solid #FF8A00;
+		padding: 11px;
 		border-radius:25px;
 		top:335px;
 		left:45px;
@@ -32,10 +33,11 @@
 		font-size:24px;
 		width:300px;
 		height:40px;
+		outline: none;
 	}
 	.username{
 		position: relative;
-		left:86%;
+		right:12%;
 		top:-110px;
 		font-size:20px;
 		text-align:right;
@@ -49,6 +51,10 @@
 		border-radius:25px;
 		outline:none;
 		filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+		background-color: #FFBA00;
+		color: black;
+		font-size:25px;
+		cursor: pointer;
 	}
 	.tanda{
 		position: absolute;
